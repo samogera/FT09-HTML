@@ -6,7 +6,7 @@ const rl = readline.createInterface({
     input: process.stdin,//reads from user input
     output: process.stdout//writes to the console
 });
-//asks users to input student marks
+//Asks users to input student marks
 rl.question('Enter student marks: ', (marks) => {
     //coverting the user input to a number
     if (marks < 0 || marks > 100) {
